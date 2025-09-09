@@ -17,7 +17,7 @@
     --COLOR_MAIN_BG:#ffffff;
     --COLOR_TEXT_HEADING: #8FF0FF;
     --COLOR_TEXT_MAIN:#ee7e0f;
-    --COLOR_BORDER: #313131;
+    --COLOR_BORDER: #959292;
 
     /*  //paddng  */
 
@@ -26,7 +26,7 @@
 }
 
 body{
-    background-color: hsl(0, 0%, 100%);
+    background-image: url(.//assets/BG_img2.jpg);
     color: rgb(9, 9, 9);
     font-family: var(--FONT_MONTSERRAT);
     font-size: 2rem;
@@ -35,7 +35,8 @@ body{
 
 .ToDoListContainer{
 
-    background-color:var(--COLOR_MAIN_BG);
+  
+    backdrop-filter: blur(20px);
     color: var(--COLOR_TEXT_MAIN);
     display: flex;
     flex-direction: column;
@@ -99,6 +100,7 @@ body{
     font-weight: bold;
     padding: 2px;
     width: 15%;
+    min-width: 60px;
     border-radius: 5px;
     box-shadow: 3px 3px 2px #474747 ;
     
@@ -126,6 +128,7 @@ body{
     font-weight: bold;
     padding: 2px;
     width: 18%;
+    min-width: 60px;
     border-radius: 5px;
     box-shadow: 3px 3px 2px #474747 ;
     
