@@ -27,6 +27,7 @@
 
 body{
     background-image: url(.//assets/BG_img2.jpg);
+    background-repeat: no-repeat;
     color: rgb(9, 9, 9);
     font-family: var(--FONT_MONTSERRAT);
     font-size: 2rem;
