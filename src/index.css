@@ -14,7 +14,7 @@
     --FONT_STORY_SCRIPT: "Story Script",sans-serif;
 
     /*  //colors   */
-    --COLOR_MAIN_BG:#f3f3f3;
+    --COLOR_MAIN_BG:#ffffff;
     --COLOR_TEXT_HEADING: #8FF0FF;
     --COLOR_TEXT_MAIN:#ee7e0f;
     --COLOR_BORDER: #313131;
@@ -26,7 +26,7 @@
 }
 
 body{
-    background-color: hsl(0, 0%, 89%);
+    background-color: hsl(0, 0%, 100%);
     color: rgb(9, 9, 9);
     font-family: var(--FONT_MONTSERRAT);
     font-size: 2rem;
